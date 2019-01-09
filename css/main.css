@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #404040;
+}
+
+body section {
+    overflow: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#h1_line {
+    height: 6px;
+    background: #E96656;
+}
+
+.fa_text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    font-size: 24px;
+    color: #404040;
+    margin-left: 10px;
+}
+
+.orange {
+    height: 100%;
+    background: #E96656;
+    width: 6px;
+}
+
+.biz_list li {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 18px;
+    color: #404040;
+    list-style-type: none;
+}
+
+.biz_list li::before {
+    content: "\2022";
+    width: 6px;
+    font-weight: bold;
+    margin-right: 10px;
+    color: #E96656;
+    list-style-type: circle;
+}
+
+#v0 {
+    position: fixed;
+    width: inherit;
+    top: 120px;
+    z-index: -1;
+}
+
+.biz_h {
+    height: 30px;
+    background: #111;
+    color: white;
+}
+
+.biz_h p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.osnova {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.counter {
+    width: 150px;
+    height: 150px;
+    background: #E96656;
+    border-radius: 10px;
+}
+
+.counter_lv1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.counter_lv2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 47px;
+    font-size: 48px;
+    text-align: center;
+    color: #E96656;
+    margin-top: 10px;
+}
+
+.counter_lv3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 18px;
+    font-size: 18px;
+    text-align: center;
+    color: #404040;
+}
